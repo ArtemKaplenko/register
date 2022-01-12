@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.register {
+  min-width: 400px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center; 
+  color: #707070;
+}
+
+h1, hr {
+  display: inline-block;
+}
+
+h1 {
+  margin: 20px 10px;
+  color: #404040;
+}
+
+hr {
+  width: 30%;
+  vertical-align: middle;
+}
+
+form {
+  padding: 0 3%;
+}
+
+.form-item, .input-line {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.f-name, .l-name {
+  width: 45%
+}
+
+.l-name {
+  position: absolute;
+  right: 0;
+}
+
+input {
+  height: 40px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.agree-input {
+  height: max-content;
+  margin-right: 5px;
+}
+
+.btn {
+  height: 40px;
+  color: #ffffff;
+  background: linear-gradient(360deg, rgba(48,115,64,1) 0%, rgba(67,179,78,1) 100%);  border-radius: 3px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+}

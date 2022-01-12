@@ -5,10 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
-  
+    
+  <div class="register"> 
+    <header>
+      <hr>
+      <h1>Register</h1>
+      <hr>
+      <div>Create your account. It's free and only takes a minute.</div>
+    </header>
+    <main>
+      <form action=""> 
+        <div class="input-line">
+          <input class="f-name" type="text" name="first-name" placeholder="First Name" />
+          <input class="l-name" type="text" name="last-name" placeholder="Last Name" />
+        </div>
+        <input class="form-item" type="email" name="email" placeholder="Email" />
+        <input class="form-item" type="password" name="password" placeholder="Password" />
+        <input class="form-item" type="password" name="password" placeholder="Confirm Password" />
+        <label>
+          <input class="agree-input" type="checkbox" name="agree" /> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.
+        </label>
+        <button class="btn form-item" type="submit">Register Now</button>
+      </form> 
+    </main>
+  </div>
 
 </body>
 </html>
