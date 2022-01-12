@@ -66,10 +66,15 @@ input {
   margin-right: 5px;
 }
 
+a {
+  color: rgb(48, 115, 64);
+  text-decoration: none;
+}
+
 .btn {
   height: 40px;
   color: #ffffff;
-  background: linear-gradient(360deg, rgba(48,115,64,1) 0%, rgba(67,179,78,1) 100%);  border-radius: 3px;
+  background: linear-gradient(360deg, rgb(48, 115, 64) 0%, rgba(67,179,78,1) 100%);  border-radius: 3px;
   border: none;
   border-radius: 3px;
   font-weight: bold;

@@ -19,14 +19,14 @@
     <main>
       <form action=""> 
         <div class="input-line">
-          <input class="f-name" type="text" name="first-name" placeholder="First Name" />
-          <input class="l-name" type="text" name="last-name" placeholder="Last Name" />
+          <input class="f-name" type="text" pattern="^[A-Za-zА-Яа-яЁё]+$" required name="first-name" placeholder="First Name" />
+          <input class="l-name" type="text" pattern="^[A-Za-zА-Яа-яЁё]+$" required name="last-name" placeholder="Last Name" />
         </div>
-        <input class="form-item" type="email" name="email" placeholder="Email" />
-        <input class="form-item" type="password" name="password" placeholder="Password" />
-        <input class="form-item" type="password" name="password" placeholder="Confirm Password" />
+        <input class="form-item" type="email" pattern="^[A-Za-z0-9]+@[a-z]+.[a-z]+$" required name="email" placeholder="Email" />
+        <input class="form-item" type="password" name="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required placeholder="Password" />
+        <input class="form-item" type="password" name="password" pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" required placeholder="Confirm Password" />
         <label>
-          <input class="agree-input" type="checkbox" name="agree" /> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.
+          <input class="agree-input" type="checkbox" required name="agree" /> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.
         </label>
         <button class="btn form-item" type="submit">Register Now</button>
       </form> 
